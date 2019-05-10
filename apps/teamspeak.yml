@@ -20,9 +20,7 @@
         intport3: '30033'
         extport3: '30033'
         image: 'aheil/teamspeak3-server''
-    # CORE (MANDATORY) ############################################################
-    - name: 'Including cron job'
-      include_tasks: '/opt/communityapps/apps/_core.yml'
+
     # LABELS ######################################################################
     - name: 'Adding Traefik'
       set_fact:
